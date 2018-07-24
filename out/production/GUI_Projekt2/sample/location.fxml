@@ -1,0 +1,29 @@
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.control.ButtonBar?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.StackPane?>
+
+<VBox fx:controller="sample.LocationController"
+      xmlns:fx="http://javafx.com/fxml" alignment="CENTER" stylesheets="@styling.css">
+     <HBox fx:id="topBar" alignment="CENTER" prefHeight="50">
+        <ButtonBar>
+            <buttons>
+                <Button fx:id="Warszawa" text="Warszawa" prefWidth="200" prefHeight="45" onAction="#changeLocation"/>
+                <Button fx:id="Gdansk" text="Gdańsk" prefWidth="200" prefHeight="45" onAction="#changeLocation"/>
+                <Button fx:id="Tokio" text="Tokio" prefWidth="200" prefHeight="45" onAction="#changeLocation"/>
+            </buttons>
+        </ButtonBar>
+     </HBox>
+    <HBox fx:id="topBar2" alignment="CENTER" prefHeight="50" spacing="10">
+        <Label fx:id="cash" text="FINANSE:" prefHeight="50" prefWidth="100"/>
+        <Label fx:id="finances" text="0" prefHeight="50" prefWidth="100"/>
+        <Button fx:id="gain" text="\$$$" onAction="#gainMoney" prefWidth="100" prefHeight="40"/>
+    </HBox>
+
+    <StackPane fx:id="floors">
+
+    </StackPane>
+
+</VBox>

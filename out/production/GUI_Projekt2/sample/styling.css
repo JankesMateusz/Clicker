@@ -1,0 +1,102 @@
+#mainMenu {
+    -fx-background-image: url("/resources/PJATK.png");
+    -fx-background-size: cover;
+    -fx-font-weight: bold;
+}
+
+#startButton{
+    -fx-background-radius: 50px;
+    -fx-background-color: white;
+    -fx-border-color: rgb(227, 31, 41);
+    -fx-border-radius: 50px;
+    -fx-border-width: 4px;
+    -fx-font-weight: bold;
+    -fx-font-size: 24px ;
+}
+
+.buyButton{
+    -fx-background-color: whitesmoke;
+    -fx-background-radius: 100px;
+    -fx-border-radius: 100px;
+    -fx-border-width: 4px;
+    -fx-border-color: midnightblue;
+    -fx-font-weight: bold;
+}
+
+.workerButton{
+    -fx-background-color: whitesmoke;
+    -fx-background-radius: 80px;
+    -fx-border-radius: 80px;
+    -fx-border-width: 2px;
+    -fx-border-color: midnightblue;
+    -fx-font-weight: bold;
+}
+
+#topBar{
+    -fx-background-color: midnightblue;
+}
+
+#topBar2{
+    -fx-background-color: midnightblue;
+}
+
+#gain{
+    -fx-background-color: whitesmoke;
+    -fx-border-width: 4px;
+    -fx-border-color: dodgerblue;
+    -fx-font-weight: bold;
+    -fx-background-radius: 40px;
+    -fx-border-radius: 40px;
+}
+
+#floors {
+    -fx-background-color: midnightblue;
+    -fx-background-size: cover;
+}
+
+#Warszawa{
+    -fx-background-color: whitesmoke;
+    -fx-border-width: 4px;
+    -fx-border-color: dodgerblue;
+    -fx-font-weight: bold;
+}
+
+#Gdansk{
+    -fx-background-color: whitesmoke;
+    -fx-border-width: 4px;
+    -fx-border-color: dodgerblue;
+    -fx-font-weight: bold;
+}
+
+#Tokio{
+    -fx-background-color: whitesmoke;
+    -fx-border-width: 4px;
+    -fx-border-color: dodgerblue;
+    -fx-font-weight: bold;
+}
+
+#cash{
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+}
+
+#finances{
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+}
+
+.outcome{
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-font-size: 16px;
+}
+
+.locationPanel {
+    -fx-background-color: midnightblue;
+}
+
+.floor {
+    -fx-background-color: rgb(25, 25, 128);
+    -fx-border-width: 3px;
+    -fx-border-color: dodgerblue;
+}
